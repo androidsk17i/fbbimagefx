@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const pose = document.getElementById('pose').value.trim() || 'casually window shopping';
         const ethnicity = getRandomElement(ethnicities);
 
-        const basePrompt = `A cute mature with long hair, chubby yet muscular ${ethnicity} female bodybuilder with a strong and athletic physique, in a ${style} style, with a ${mood} expression, in a ${background}, under ${lighting} lighting, wearing ${attire}, and ${pose}. The image should emphasize her strength and confidence in a realistic and respectful manner.`;
+        const basePrompt = `A cute mature long-haired, chubby yet muscular ${ethnicity} female bodybuilder of strong and athletic physique, in a ${style} style, with a ${mood} expression, in a ${background}, under ${lighting} lighting, wearing ${attire}, and ${pose}. The image should emphasize her strength and confidence in a realistic and respectful manner.`;
 
         resultArea.value = basePrompt;
         // Auto copy to clipboard when prompt is generated
