@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImageFX Prompt Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ImageFX Prompt Generator</h1>
+        
+        <div class="input-section">
+            <div class="input-group">
+                <label for="style">Style:</label>
+                <input type="text" id="style" placeholder="e.g., realistic, photorealistic">
+            </div>
+
+            <div class="input-group">
+                <label for="mood">Mood/Expression:</label>
+                <input type="text" id="mood" placeholder="e.g., naturally engaged, looking at shop window, reading phone">
+            </div>
+
+            <div class="input-group">
+                <label for="background">Background:</label>
+                <input type="text" id="background" placeholder="e.g., busy city street, shopping mall, public park">
+            </div>
+
+            <div class="input-group">
+                <label for="lighting">Lighting:</label>
+                <input type="text" id="lighting" placeholder="e.g., natural, sunny, evening">
+            </div>
+
+            <div class="input-group">
+                <label for="attire">Attire:</label>
+                <input type="text" id="attire" placeholder="e.g., casual business attire, summer dress, winter coat">
+            </div>
+
+            <div class="input-group">
+                <label for="pose">Pose:</label>
+                <input type="text" id="pose" placeholder="e.g., window shopping, checking phone, waiting for crosswalk">
+            </div>
+
+            <div class="button-group">
+                <button id="generate">Generate Prompt</button>
+                <button id="random">Random Prompt</button>
+            </div>
+        </div>
+
+        <div class="output-section">
+            <label for="result">Generated Prompt:</label>
+            <textarea id="result" readonly></textarea>
+            <button id="copy">Copy to Clipboard</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
